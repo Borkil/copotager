@@ -1,14 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 *{
   /* border: 1px solid; */
   box-sizing: border-box;
+  
 }
 
 header{
-  height: 100vh;
-  background-image: url(/ressources/image/image\ header\ 01.jpg);
-  background-size: auto 100%;
+  
+  max-height: 1200px;
+  background-image: linear-gradient(rgba(26,25,25,0.2), rgba(238,238,238,0.2)), url(/ressources/image/image\ header\ 01.jpg);
+  background-size: auto ;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 
+}
+
+header h1{
+  color: white;
+  font-family: 'Lobster';
+  font-size: 74px;
 }
 
