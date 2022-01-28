@@ -3,13 +3,16 @@
 *{
   /* border: 1px solid; */
   box-sizing: border-box;
+  font-family:'roboto';
   
 }
-
+body{
+  background-color: #EAECEA;
+}
 header{
   
   max-height: 1200px;
-  background-image: linear-gradient(rgba(26,25,25,0.2), rgba(238,238,238,0.2)), url(/ressources/image/image\ header\ 01.jpg);
+  background-image: linear-gradient(rgba(231, 231, 231, 0.199), rgba(34, 34, 34, 0.25)), url(/ressources/image/image\ header\ 01.jpg);
   background-size: auto ;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -22,3 +25,31 @@ header h1{
   font-size: 74px;
 }
 
+.navbar-brand{
+  font-size: 35px;
+  font-family: 'Lobster';
+}
+
+h2{
+  font-family: 'Lobster';
+  font-size: 45px;
+  color: #687259;
+}
+
+.btn-green{
+  max-width: 200px;
+  background-color: #687259;
+  color: white;
+}
+
+.btn-green:hover{
+  background-color: #a2a182;
+}
+
+.btn-card{
+  color: #687259;
+}
+
+.btn-card:hover{
+  color: #a2a182;
+}
