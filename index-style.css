@@ -53,3 +53,14 @@ h2{
 .btn-card:hover{
   color: #a2a182;
 }
+
+#about p{
+  text-align: justify;
+}
+
+.activitylogos{
+  width: 80px;
+  height: 80px;
+  fill: #8e412e;
+  
+}
