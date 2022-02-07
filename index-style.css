@@ -64,3 +64,19 @@ h2{
   fill: #8e412e;
   
 }
+
+#contact{
+  background-color: #bfbfbf;
+  color: white;
+  font-weight: bold;
+}
+
+#contact h2{
+  color: white;
+  
+}
+
+.text-green{
+  color:#687259;
+ 
+}
